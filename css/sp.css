@@ -1,0 +1,196 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*スマホ*/
+
+/*====================
+
+  フォーマット
+
+======================*/
+.content_inner {
+	width:auto !important;
+	padding:0 4%
+}
+#Main_content .content_inner,
+#Access #Main_content .content_inner,
+#Contact #Main_content .content_inner,
+#Faq #Main_content .content_inner,
+#Form #Main_content .content_inner,
+#Mypage #Main_content .content_inner,
+#Booth.index #Main_content .content_inner {
+	width:auto;
+	padding:0 4%
+}
+#Main_content {
+	margin-top:20px;
+}
+
+/*===ヘッダー===*/
+#Sp_nav_btn {
+	display:block;
+	float:right;
+	line-height:0;
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+/*===SNS===*/
+#Sns {
+	display:none;
+}
+
+/*===フッター===*/
+#Footer .content_inner {
+	padding: 30px 4%;
+	text-align:left;
+}
+#Nav_footer{
+	display:none;
+}
+#Footer .name {
+	padding-top:0;
+}
+#Page_top {
+	position: fixed;
+	right: 15px;
+	bottom: 15px;
+	line-height:0;
+	width:40px;
+}
+#Page_top a img {
+	width:100%;
+}
+
+/*====================
+
+  開催概要
+
+======================*/
+
+#Outline .copy {
+	font-size:18px;
+}
+#Main_content .copy {
+	margin-bottom:30px;
+}
+.copy_img1,
+.copy_img2 {
+	display:none;
+}
+#Outline_detail {
+	padding:35px 3%;
+	box-sizing:border-box;
+}
+#Outline_detail dt,
+#Outline_detail dd,
+#Outline_detail dd.date strong{
+	font-size:1em;
+}
+#Outline_detail dt {
+	width:5em;
+}
+#Outline_detail dd {
+	padding-left:6.5em;
+}
+#Main_content .photo_img {
+	width:100%;
+	height:auto;
+	padding:20px 0 0;
+}
+#Main_content .photo_img img{
+	width:100%;
+	position:static;
+	margin-left:0;
+}
+#Outline_detail dd:last-child {
+	padding-bottom:0;
+}
+#Outline #Main_content .content_inner {
+	margin-bottom:40px;
+}
+#Outline_detail dd img {
+	padding-right:0;
+}
+#Outline_detail dd #Afpa img {
+	width:30%;
+}
+#Outline_detail dd #Yhm img {
+	width:100%;
+}
+#Outline_detail dd #Arcphilia img {
+	width:80%;
+}
+
+
+#Access .access_detail .otherdl,
+#Access .access_detail .car_box,
+.faq_detail .otherdl {
+	padding: 20px 3%;
+	line-height: 1.6em;
+	letter-spacing: 0.1em;
+}
+#Access .access_detail .otherdl .otherdd,
+.faq_detail .otherdl .otherdd {
+	font-size:0.9em;
+	line-height:1.8em;
+}
+.faq_detail .otherdl .otherdd {
+	padding-right: 0;
+}
+/*#Access .access_detail .icon {
+	position: absolute;
+	top: -40px;
+	left: 10px;
+}
+#Access .access_detail .icon img{
+	width:60%;
+}*/
+#Access .access_detail .icon {
+	display:none;
+}
+#Access .access_detail h3 {
+	letter-spacing:1px;
+	font-size:20px;
+	padding: 20px ;
+	text-align:center;
+}
+.faq_detail h3 {
+	letter-spacing:0.1em;
+	font-size:25px;
+	padding: 20px ;
+	text-align:center;
+}
+#Access .access_detail h3 strong {
+	font-size:30px;
+}
+#Access .access_detail .car_box .txt {
+	font-size:1em;
+	margin-bottom:20px;
+}
+#Access .access_detail .car_box .p1,
+#Access .access_detail .car_box .p2,
+#Access .access_detail .car_box .p3 {
+	padding:35px 0 0 0;
+	margin: 0 0 30px;
+}
+#Access .access_detail .car_box th,
+#Access .access_detail .car_box td {
+	border-bottom:1px dotted #CCC;
+	padding:4px 0;
+	font-size:0.9rem;
+}
+#Access .access_detail .car_box tr:last-child th,
+#Access .access_detail .car_box tr:last-child td {
+	border-bottom:none;
+}
+#Access .access_detail .car_box table th{
+	width:6em;
+}
+#Access #map_canvas {
+	height:280px !important;
+}
+#Access #Main_content .content_inner {
+	margin-top:0;
+}

@@ -1,0 +1,362 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Home*/
+
+/*=======================
+
+  メインビジュアル
+
+=========================*/
+
+#Main_container {
+	padding:0 0 35px 0;
+}
+#Main_img {
+	position:relative;
+	line-height:0;
+}
+#Main_img img{
+	width:100%;
+}
+#Main_img h1 {
+	width:30%;
+	padding-top:30%;
+	height:0;
+	line-height:2em;
+	background:url(../images/home/top_logo.png) no-repeat;
+	background-size:100%;
+	overflow:hidden;
+	position:absolute;
+	top:38%;
+	left:50%;
+	margin:-15% 0 0 -15%;
+}
+
+#slidecontent{
+		padding:0 10px;
+}
+
+.multiple-item li{
+	margin:0 5px;
+}
+
+#Main_img .day_flag {
+	position:absolute;
+	top:50px;
+	right:0;
+}
+#Main_img .day_flag {
+	width: 32%;
+	padding-top: 6.6%;
+	height: 0;
+	line-height: 2em;
+	background:url(../images/home/flagday.png) no-repeat;
+	background-size:100%;
+	overflow: hidden;
+}
+
+/*IE8 IE7▼*/
+.ie7 #Main_img h1,
+.ie8 #Main_img h1 {
+	width: 346px;
+	padding-top:346px;
+	background:url(../images/home/top_logo_ie8.png) no-repeat;
+	margin:-173px 0 0 -173px;
+}
+.ie7 #Main_img .day_flag,
+.ie8 #Main_img .day_flag {
+	width: 334px;
+	padding-top:70px;
+	background: url(../images/home/day_flag_ie8.png) no-repeat;
+}
+
+
+/*=======================
+
+  ナビ
+
+=========================
+*/
+
+#Home #Nav_global {
+	background:url(../images/format/nav_wave_bg.png) repeat-x bottom;
+	height: 35px;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	padding-bottom:45px;
+	padding-top:0;
+}
+
+#Home #Nav_global ul li{
+	margin-left:35px;
+	float:left;
+	color:#20546D;
+}
+#Home #Nav_global ul li a{
+	display:block;
+}
+#Home #Nav_global ul li#Nav_outline {
+	margin-left:0;
+}
+#Home #Nav_global ul li a,
+#Home #Nav_global ul li span{
+	display:block;
+	padding:4px 0 4px 0px;
+	border-bottom:2px dotted #62BBD1;
+	color:#20546D;
+	font-size:14px;
+	letter-spacing:0.2em;
+	font-family: 'Noto Sans JP',游ゴシック, YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Verdana, メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;;
+	text-decoration:none;
+	line-height:1.8em;
+}
+#Home #Nav_global ul li#Nav_access a{
+	padding:4px 0 4px 0px;
+}
+#Home #Nav_global ul li#Nav_faq a{
+	padding:4px 0 4px 0px;
+}
+#Home #Nav_global ul li#Nav_contact a{
+	padding:4px 0 4px 0px;
+}
+#Home #Nav_global ul li#Nav_outline a:hover,
+#Home #Nav_global ul li#Nav_access a:hover,
+#Home #Nav_global ul li#Nav_store a:hover,
+#Home #Nav_global ul li#Nav_faq a:hover,
+#Home #Nav_global ul li#Nav_contact a:hover{
+	background-position:0 -31px;
+	color:#62BBD1;
+}
+/*coming soon*/
+#Home #Nav_global ul li span{
+	border-color:#CCC;
+	color:#999;
+	cursor:default;
+	background:url(../images/home/nav_store_comingsoon.png) no-repeat center 10px;
+}
+
+/*=======================
+
+  コンテンツ
+
+=========================*/
+
+h3 {
+	font-size:43px;
+	text-align:center;
+	color:#1D4B66;
+	line-height:43px;
+	letter-spacing:0.3em;
+	padding-bottom:40px;
+}
+
+#Outline_content_warpaer h3{
+	font-weight:900;
+}
+
+/*縁市とは*/
+#Main_copy {
+	padding:90px 0 40px;
+	background:url(../images/home/copy_bg.png) repeat-x top #FFF;
+	width:100%;
+	overflow:hidden;
+}
+#Main_copy .content_inner {
+	position:relative;
+}
+#Main_copy .copy_title {
+	width:252px;
+	height:0;
+	padding-top:86px;
+	background:url(../images/home/main_copy_txt.png) no-repeat #FFF;
+	overflow:hidden;
+	margin-bottom:40px;
+	color:#FFF;
+	line-height:2em;
+	float:left;
+}
+#Main_copy .copy_txt {
+	margin:10px 0 30px 0;
+	float:right;
+}
+#Main_copy .copy_txt p{
+	font-size:15px;
+	line-height:2.2em;
+	padding-bottom:23px;
+	letter-spacing:0.23em;
+}
+#Main_copy .deco1 {
+	position:absolute;
+	top: -20px;
+	left: -140px;
+}
+#Main_copy .deco2 {
+	position:absolute;
+	top: -10px;
+	left: -90px;
+}
+#Main_copy .deco3 {
+	position:absolute;
+	top:83px;
+	left:-233px;
+}
+#Main_copy .deco4 {
+	position:absolute;
+	top: 0px;
+	left: 1090px;
+}
+#Main_copy .deco5 {
+	position:absolute;
+	top: 30px;
+	left: 1040px;
+}
+#Main_copy .deco6 {
+	position:absolute;
+	top: 150px;
+	left: 960px;
+}
+#Main_copy .deco7 {
+	position:absolute;
+	top: 200px;
+	left: 800px;
+}
+#Main_copy .deco8 {
+	position:absolute;
+	top: 290px;
+	left: 970px;
+}
+#Main_copy .deco9 {
+	position:absolute;
+	top: 345px;
+	left: 920px;
+}
+#Main_copy .deco10 {
+	position:absolute;
+	top: 320px;
+	left:10px;
+}
+#Main_copy .outline_link {
+	position:absolute;
+	bottom:-100px;
+	left: -90px;
+}
+#Main_copy .booth_link {
+	position:absolute;
+	bottom: -20px;
+	left: 100px;
+}
+#Main_copy .outline_link map:hover {
+	 filter:alpha(opacity=80);
+    -moz-opacity: 0.8;
+    opacity: 0.8;
+}
+#Sample_img{
+	position:relative;
+	z-index:10;
+	margin-bottom:60px;
+}
+
+/*日時と場所*/
+
+#Outline_content {
+	background:url(../images/home/outline_bg_1.png) repeat-x top #FFF;
+	padding-top:85px;
+}
+#Outline_content #Outline_content_warpaer{
+	background:url(../images/outline/outline_bg.png) repeat #FFF;
+}
+#Outline_content .content_inner{
+	background:#F7F7F7;
+	width:900px;
+	padding:30px 50px 50px;
+	position:relative;
+}
+#Outline_content .content_block {
+	position:relative;
+	padding:50px;
+}
+#Outline_content .content_block .pin1{
+	position:absolute;
+	top:5px;
+	left:10px;
+}
+#Outline_content .content_block .pin2{
+	position:absolute;
+	top:5px;
+	right:10px;
+}
+#Outline_content .content_block .pin3{
+	position:absolute;
+	bottom:5px;
+	left:10px;
+}
+#Outline_content .content_block .pin4{
+	position:absolute;
+	bottom:5px;
+	right:10px;
+}
+#Outline_content .content_block .home_outline {
+	margin-bottom:30px;
+}
+#Outline_content .content_block dl{
+	color:#1D4B66;
+	height:0;
+	padding-top:113px;
+	overflow:hidden;
+	float:left;
+}
+#Outline_content .content_block dl.home_date {
+	width:365px;
+	background:url(../images/home/outline_day_txt.png) no-repeat;
+	margin-right:35px;
+}
+#Outline_content .content_block dl.home_access {
+	width:365px;
+	background:url(../images/home/outline_place_txt.png) no-repeat;
+}
+.access_link {
+	position:absolute;
+	bottom:-60px;
+	left:710px;
+}
+
+/*フッター*/
+#Img_photo {
+	height:360px;
+	background:url(../images/appearance/appearance-9.jpg) no-repeat center;
+	background-size:cover;
+}
+#Img_photo .img_inner {
+	/*height:360px;
+	background:url(../images/appearance/appearance-9.jpg) repeat;*/
+}
+#Footer {
+	margin-top:-10px;
+}
+
+/*スライドサンプルイメージ*/
+#Sample_img {
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	height:193px;
+}
+
+/*SNS*/
+#Home #Sns {
+	position:absolute;
+	top:25px;
+	left:20px;
+}
+#Home #Sns .twitter{
+	float:left;
+	margin-right:10px;
+	line-height:0;
+}
+#Home #Sns .facebook{
+	float:left;
+	line-height:0;
+}

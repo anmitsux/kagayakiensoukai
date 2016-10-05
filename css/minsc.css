@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*最小設定css*/
+
+/*====================
+
+  フォーマット
+
+======================*/
+.outline_link,.booth_link{
+  display:none;
+}
